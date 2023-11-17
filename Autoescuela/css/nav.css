@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #01309c; /* Puedes cambiar el color de fondo según tus preferencias */
+    padding: 10px;
+    height: 14%;
+}
+
+.navbar-item img {
+    width: 100px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 70px;
+}
+
+.navbar-item h1 {
+    color: rgb(252, 252, 252); /* Cambia el color del texto según tus preferencias */
+    font-size: 180%;
+    margin: 0;
+    align-items: center;
+}

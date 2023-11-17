@@ -1,0 +1,136 @@
+body {
+    background-image: url('/css/imagenes/Captura.PNG');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    height: 375px;
+    width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    background-color: rgb(236, 229, 229);
+    width: 85%;
+}
+
+h2 {
+    margin: 0 0 20px;
+}
+
+label {
+    text-align: center;
+}
+
+.grupo-imput {
+    margin-bottom: 20px;
+    margin-right: 45px;
+    margin-left: 25px;
+    width: 90%;
+}
+
+.grupo-imput label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.grupo-imput input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.olvido {
+    text-decoration: underline;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column; /* Cambiado a columna para alinear verticalmente */
+    justify-content: space-between; /* Alinea verticalmente y distribuye el espacio entre los botones */
+    align-items: center; /* Alinea horizontalmente los elementos en el centro */
+    margin-top: 10px; /* Agregado espacio arriba de los botones */
+}
+
+.botones button,
+.botones input {
+    width: 100%; /* Hace que ambos botones tengan el mismo tamaño */
+    margin-bottom: 10px; /* Agregado espacio entre los botones */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.registro {
+    background-color: #3498db;
+    color: #fff;
+}
+
+#inicioSesion {
+    margin: 2% 20px 5% 0;
+    background-color: #3498db;
+    color: #fff;
+}
+
+#nuevoRegistro {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+#cuerpo {
+    display: flex;
+    width: 1000px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error_mensaje {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3498db; /* Puedes cambiar el color de fondo según tus preferencias */
+    padding: 10px;
+}
+
+.navbar-item img {
+    width: 40px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 40px;
+    border-radius: 50%;
+}
+
+.navbar-item h1 {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    margin: 0;
+}
+

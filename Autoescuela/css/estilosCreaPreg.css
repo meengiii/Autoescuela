@@ -1,0 +1,65 @@
+/* Reset de estilos para garantizar consistencia en diferentes navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/css/imagenes/Captura.PNG);
+    background-size: cover;
+    background-position: center;
+}
+
+#contenedor {
+    max-width: 800px;
+    background-color: #949191;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#preguntas-container {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+#Examen {
+    margin-bottom: 20px;
+}
+
+select, textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+#crud {
+    display: flex;
+    justify-content: space-around;
+}
+
+#crud img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Estilos adicionales para los botones de CRUD */
+#anadir:hover, #borrar:hover, #guardar:hover, #actualizar:hover {
+    filter: brightness(80%);
+}
+
+
+
+/* Agrega más estilos según sea necesario */
